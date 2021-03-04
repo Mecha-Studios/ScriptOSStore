@@ -48,6 +48,7 @@ body{
     display: flex;
 }
 
+
 .elmcontain{
     width: 70%;
     position: absolute;
@@ -163,6 +164,23 @@ body{
     color: white;
   } button:hover {
     background: linear-gradient(red,black);
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
+    transform: scale(1.25);
+    border-radius: 15px;
+  }
+
+  a{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    color: white;
+  } a:hover {
+    background: linear-gradient(rgb(0, 17, 255),black);
     box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 5px; 
     transform: scale(1.25);
     border-radius: 15px;
